@@ -28,7 +28,7 @@ display:none;
 #cboxContent, 
 #cboxLoadedContent { 
 margin:0;
-z-index:9999;
+z-index: 9999;
 }
 
 #cboxContent img.cboxPhoto {}
@@ -50,7 +50,7 @@ text-indent:96px;
 white-space:nowrap;
 color:rgba(255,255,255,0.85);
 text-shadow:0 0 2px rgba(0,0,0,0.7), 0 0 8px rgba(0,0,0,0.5);
-z-index:10;
+z-index:9999;
 }
 
 #cboxPrevious:hover,
@@ -128,10 +128,7 @@ color:#eee;
 #cboxTitle:empty + #cboxCurrent:not(:empty) {
 float:none!important;
 width:100%;
-background:rgba(0,0,0);
+background:rgba(0,0,0,0.85);
 }
-
-
-
 
 #cboxLoadingGraphic {}
